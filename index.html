@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Generador de Presupuestos – Vertical Producciones</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Portada -->
+  <div id="portada">
+    <img src="assets/logo.png" id="logo" alt="Logo">
+    <h1>Generador de Presupuestos</h1>
+    <h2>¿Qué evento querés presupuestar?</h2>
+    <button onclick="abrirFormularioBoda()">Boda</button>
+    <button disabled>Fiesta de XV</button>
+  </div>
+
+  <!-- Formulario para Boda -->
+  <div id="formularioBoda" style="display:none;">
+    <h2>Presupuesto de Boda</h2>
+    <label>Nombre de los novios:</label><input id="nombreNovios" type="text">
+    <label>Fecha de la boda:</label><input id="fechaBoda" type="date">
+    <label>Salón:</label><input id="salon" type="text">
+    <label>Ciudad:</label><input id="ciudad" type="text">
+    <label>Precio ($):</label><input id="precio" type="number">
+    <label>Fecha de emisión:</label><input id="fechaEmision" type="date">
+    <button onclick="generarPDF()">Generar presupuesto</button>
+    <button onclick="volverInicio()">Volver al inicio</button>
+  </div>
+
+  <!-- jsPDF -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script>window.jsPDF = window.jspdf.jsPDF;</script>
+
+  <!-- Fuente custom -->
+  <script src="fonts/Montserrat-Light-normal.js"></script>
+  <script src="fonts/Montserrat-Bold-normal.js"></script>
+
+  <!-- Función traducir número a letras -->
+  <script src="fonts/NumeroALetras.js"></script> <!-- importada desde gist de Alfchee :contentReference[oaicite:1]{index=1} -->
+
+  <!-- Script principal -->
+  <script src="script.js"></script>
+</body>
+</html>

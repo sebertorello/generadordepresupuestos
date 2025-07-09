@@ -142,7 +142,7 @@ async function generarPDF(){
    { t:ciu+' ', b:true },
    { t:'tiene un costo de ', b:false },
    { t:prTxt+'. ', b:true },
-   { t:'El mismo incluye una sesión de exteriores (pre o post boda) y la jornada del evento. Para asegurar la reserva, se requiere un anticipo del 50%, a pagarse en los siguientes 15 días tras la emisión del presupuesto. La sesión de exteriores extra tiene un precio de $150.000. El saldo restante se abonará el mes subsiguiente, brindando una gestión financiera cómoda para nuestros clientes. Nos esforzamos por ofrecer un servicio transparente y adaptado a sus necesidades. Es importante tener en cuenta que se aplicará un cargo adicional por viáticos solo en caso de que las sesiones exteriores se encuentren a más de 75 km de Río Cuarto. Estamos comprometidos a brindar un servicio completo y transparente, asegurando la satisfacción total de nuestros clientes.', b:false }
+   { t:'El mismo incluye una sesión de exteriores (pre o post boda) y la jornada del evento. La sesión de exteriores extra tiene un precio de $150.000. Para asegurar la reserva, se requiere un anticipo del 50%, a pagarse en los siguientes 15 días tras la emisión del presupuesto. El saldo restante se abonará el mes subsiguiente, brindando una gestión financiera cómoda para nuestros clientes. Nos esforzamos por ofrecer un servicio transparente y adaptado a sus necesidades. Es importante tener en cuenta que se aplicará un cargo adicional por viáticos solo en caso de que las sesiones exteriores se encuentren a más de 75 km de Río Cuarto. Estamos comprometidos a brindar un servicio completo y transparente, asegurando la satisfacción total de nuestros clientes.', b:false }
  ];
 
 
